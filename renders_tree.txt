@@ -1,0 +1,156 @@
+oot
+├── scenes
+│   └── nonmq
+│       ├── alley_shop_scene
+│       │   └── alley_shop_room_0Background_001430.jpg
+│       ├── drag_scene
+│       │   └── drag_room_0Background_006660.jpg
+│       ├── enrui_scene
+│       │   └── enrui_room_0Background_000360.jpg
+│       ├── entra_n_scene
+│       │   └── entra_n_room_0Background_000370.jpg
+│       ├── entra_scene
+│       │   └── entra_room_0Background_000370.jpg
+│       ├── face_shop_scene
+│       │   └── face_shop_room_0Background_008E40.jpg
+│       ├── golon_scene
+│       │   └── golon_room_0Background_0009D0.jpg
+│       ├── hut_scene
+│       │   └── hut_room_0Background_003DA0.jpg
+│       ├── impa_scene
+│       │   └── impa_room_0Background_0017A0.jpg
+│       ├── kakariko3_scene
+│       │   └── kakariko3_room_0Background_004D80.jpg
+│       ├── kakariko_scene
+│       │   └── kakariko_room_0Background_0057C0.jpg
+│       ├── kokiri_home3_scene
+│       │   └── kokiri_home3_room_0Background_0020C0.jpg
+│       ├── kokiri_home4_scene
+│       │   └── kokiri_home4_room_0Background_0000F0.jpg
+│       ├── kokiri_home5_scene
+│       │   └── kokiri_home5_room_0Background_0000E0.jpg
+│       ├── kokiri_home_scene
+│       │   └── kokiri_home_room_0Background_006430.jpg
+│       ├── kokiri_shop_scene
+│       │   └── kokiri_shop_room_0Background_00B490.jpg
+│       ├── labo_scene
+│       │   └── labo_room_0Background_006EF0.jpg
+│       ├── link_home_scene
+│       │   └── link_home_room_0Background_002480.jpg
+│       ├── malon_stable_scene
+│       │   └── malon_stable_room_0Background_008A50.jpg
+│       ├── market_alley_n_scene
+│       │   ├── market_alley_n_room_0Background_000110.jpg
+│       │   ├── market_alley_n_room_0Background_025910.jpg
+│       │   └── market_alley_n_room_0Background_04B110.jpg
+│       ├── market_alley_scene
+│       │   ├── market_alley_room_0Background_000120.jpg
+│       │   ├── market_alley_room_0Background_025920.jpg
+│       │   └── market_alley_room_0Background_04B120.jpg
+│       ├── night_shop_scene
+│       │   └── night_shop_room_0Background_003160.jpg
+│       ├── shop1_scene
+│       │   └── shop1_room_0Background_003FB0.jpg
+│       ├── shrine_n_scene
+│       │   ├── shrine_n_room_0Background_007B10.jpg
+│       │   └── shrine_n_room_0Background_02D310.jpg
+│       ├── shrine_r_scene
+│       │   ├── shrine_r_room_0Background_007AF0.jpg
+│       │   └── shrine_r_room_0Background_02D2F0.jpg
+│       ├── shrine_scene
+│       │   ├── shrine_room_0Background_007AF0.jpg
+│       │   └── shrine_room_0Background_02D2F0.jpg
+│       ├── tent_scene
+│       │   └── tent_room_0Background_00DEA0.jpg
+│       └── zoora_scene
+│           └── zoora_room_0Background_0009E0.jpg
+└── textures
+    ├── vr_ALVR_static
+    │   ├── gMarketPotionShop2BgTex.png
+    │   └── gMarketPotionShopBgTex.png
+    ├── vr_DGVR_static
+    │   ├── gKakPotionShop2BgTex.png
+    │   └── gKakPotionShopBgTex.png
+    ├── vr_FCVR_static
+    │   ├── gMaskShop2BgTex.png
+    │   └── gMaskShopBgTex.png
+    ├── vr_GLVR_static
+    │   ├── gGoronShop2BgTex.png
+    │   └── gGoronShopBgTex.png
+    ├── vr_IPVR_static
+    │   ├── gRichardsHouse2BgTex.png
+    │   ├── gRichardsHouse3BgTex.png
+    │   ├── gRichardsHouse4BgTex.png
+    │   └── gRichardsHouseBgTex.png
+    ├── vr_K3VR_static
+    │   ├── gHouseOfTwins2BgTex.png
+    │   ├── gHouseOfTwins3BgTex.png
+    │   └── gHouseOfTwinsBgTex.png
+    ├── vr_K4VR_static
+    │   ├── gMidosHouse2BgTex.png
+    │   ├── gMidosHouse3BgTex.png
+    │   └── gMidosHouseBgTex.png
+    ├── vr_K5VR_static
+    │   ├── gSariasHouse2BgTex.png
+    │   ├── gSariasHouse3BgTex.png
+    │   └── gSariasHouseBgTex.png
+    ├── vr_KHVR_static
+    │   ├── gKnowItAllBrosHouse2BgTex.png
+    │   ├── gKnowItAllBrosHouse3BgTex.png
+    │   ├── gKnowItAllBrosHouse4BgTex.png
+    │   └── gKnowItAllBrosHouseBgTex.png
+    ├── vr_KKRVR_static
+    │   ├── gCarpentersHouse2BgTex.png
+    │   ├── gCarpentersHouse3BgTex.png
+    │   ├── gCarpentersHouse4BgTex.png
+    │   └── gCarpentersHouseBgTex.png
+    ├── vr_KR3VR_static
+    │   ├── gBackAlleyHouse2BgTex.png
+    │   ├── gBackAlleyHouse3BgTex.png
+    │   └── gBackAlleyHouseBgTex.png
+    ├── vr_KSVR_static
+    │   ├── gKokiriShop2BgTex.png
+    │   └── gKokiriShopBgTex.png
+    ├── vr_LBVR_static
+    │   ├── gCowHouse2BgTex.png
+    │   ├── gCowHouse3BgTex.png
+    │   ├── gCowHouse4BgTex.png
+    │   └── gCowHouseBgTex.png
+    ├── vr_LHVR_static
+    │   ├── gLinksHouse2BgTex.png
+    │   ├── gLinksHouse3BgTex.png
+    │   ├── gLinksHouse4BgTex.png
+    │   └── gLinksHouseBgTex.png
+    ├── vr_MDVR_static
+    │   ├── gMarketDay2BgTex.png
+    │   ├── gMarketDay3BgTex.png
+    │   ├── gMarketDay4BgTex.png
+    │   └── gMarketDayBgTex.png
+    ├── vr_MLVR_static
+    │   ├── gStable2BgTex.png
+    │   ├── gStable3BgTex.png
+    │   ├── gStable4BgTex.png
+    │   └── gStableBgTex.png
+    ├── vr_MNVR_static
+    │   ├── gMarketNight2BgTex.png
+    │   ├── gMarketNight3BgTex.png
+    │   ├── gMarketNight4BgTex.png
+    │   └── gMarketNightBgTex.png
+    ├── vr_NSVR_static
+    │   ├── gBombchuShop2BgTex.png
+    │   └── gBombchuShopBgTex.png
+    ├── vr_RUVR_static
+    │   ├── gMarketRuins2BgTex.png
+    │   ├── gMarketRuins3BgTex.png
+    │   ├── gMarketRuins4BgTex.png
+    │   └── gMarketRuinsBgTex.png
+    ├── vr_SP1a_static
+    │   ├── gBazaar2BgTex.png
+    │   └── gBazaarBgTex.png
+    ├── vr_TTVR_static
+    │   ├── gCarpentersTent2BgTex.png
+    │   ├── gCarpentersTent3BgTex.png
+    │   └── gCarpentersTentBgTex.png
+    └── vr_ZRVR_static
+        ├── gZoraShop2BgTex.png
+        └── gZoraShopBgTex.png
