@@ -6,6 +6,9 @@ Scripts for modding OoT on SoH
 ## UltraScale
 This script attempts to seamlessly rescale the static backgrounds in Ocarina of Time (OoT) when runnin Ship of Harkinian (SoH). Images aren't simply rescaled as they are, they are first stripped of their padding and formed into a panoramic montage before being scaled by an AI model. The panorama is then sliced up into constituent parts and padding reapplied. Scaling this way gives the model more context and avoids visible seams in game.
 
+![Comparison animation.](ultrasharp_compare.webp)
+
+
 What do you need?
 
 - Real-ESRGAN - https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan
