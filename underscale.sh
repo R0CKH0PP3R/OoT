@@ -58,7 +58,7 @@ cores=$(grep '^core id' /proc/cpuinfo | sort -u | wc -l)
 # Add 1 below to simply account for rounding errors.
 count=$((${#src[@]}/cores+1))
 offset=0
-# Slice the array process each slice in parallel.
+# Slice the array & process each slice in parallel.
 for core in $(seq 1 $cores); do 
 	slice=("${src[@]:$offset:$count}")
 	((offset+=count))	
