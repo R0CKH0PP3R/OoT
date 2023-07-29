@@ -10,7 +10,7 @@ type mogrify >/dev/null || { echo "ImageMagick is required to use this script.";
 [[ "$#" -ne 2 ]]  && echo "Provide source (original) and target folders respectively." && exit 1
 
 # Scale Factor. Choose 4 or 8.
-sf=8
+sf=4
 # Output here
 dir='XXXX'
 
