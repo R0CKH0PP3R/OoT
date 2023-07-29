@@ -9,6 +9,8 @@
 type mogrify >/dev/null || { echo "ImageMagick is required to use this script."; exit 1; }
 [[ "$#" -ne 2 ]]  && echo "Provide source (original) and target folders respectively." && exit 1
 
+# Scale Factor. Choose 4 or 8.
+sf=8
 # Output here
 dir='XXXX'
 
@@ -32,10 +34,10 @@ underscale(){
 				srcw=$(identify -format %w "$file")
 				hitw=$(identify -format %w "${hit}")
 				# Scale 
-				if (( $hitw > $srcw*4 )); then
+				if (( hitw > srcw*sf )); then
 					echo "Scaling ${hit}"
 					# Preserve the colormap while scaling to avoid the unexpected.
-					convert "${hit}" -scale "$((srcw*4))" -define png:preserve-colormap=true \
+					convert "${hit}" -scale "$((srcw*sf))" -define png:preserve-colormap=true \
 							"${dir}/${file}"
 				else 
 					# We still want a copy of the replacement texture
@@ -54,7 +56,7 @@ readarray -d '' src < <(find "$1" -name '*.png' -print0)
 # This is a big list. Determine number of cores to split the processing over.
 cores=$(grep '^core id' /proc/cpuinfo | sort -u | wc -l)
 # Add 1 below to simply account for rounding errors.
-count=$((${#src[@]}/$cores+1))
+count=$((${#src[@]}/cores+1))
 offset=0
 # Slice the array process each slice in parallel.
 for core in $(seq 1 $cores); do 
