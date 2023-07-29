@@ -17,7 +17,7 @@ What do you need?
 
 - Retro - https://github.com/GhostlyDark/retro
 
-- Your own copy of the original game assets. I'd suggest starting with Retro to extract textures in the required directory structure & using a decomp do replace any corrupt PNGs (may be fixed in future).
+- __Your own copy of the original game assets.__ I'd suggest starting with Retro to extract textures in the required directory structure & using a decomp do replace any corrupt PNGs (may be fixed in future).
 
 
 Once you have everything, you will need to copy the pre-rendered images and make sure that they follow the directory structure shown in the __renders_tree.txt__ in this repo. To run the ultrascale script, just pass it the parent directory and it will process the files recursively. Note that they will be overwritten, so work on a copy. ;)
