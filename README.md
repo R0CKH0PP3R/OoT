@@ -4,7 +4,7 @@ Scripts for modding OoT on SoH
 
 
 ## UltraScale
-This script attempts to seamlessly rescale the static backgrounds in Ocarina of Time (OoT) when runnin Ship of Harkinian (SoH). Images aren't simply rescaled as they are, they are first stripped of their padding and formed into a panoramic montage before being scaled by an AI model. The panorama is then sliced up into constituent parts and padding reapplied. Scaling this way gives the model more context and avoids visible seams in game.
+This script attempts to seamlessly rescale the static backgrounds in Ocarina of Time (OoT) when runnin Ship of Harkinian (SoH). Images aren't simply rescaled as they are, they are first stripped of their padding and formed into a panoramic montage before being scaled by the 'ultrasharp' AI model. The panorama is then sliced up into constituent parts and padding reapplied. Scaling this way gives the model more context and avoids visible seams in game.
 
 ![Comparison animation.](ultrasharp_compare.webp)
 
@@ -17,7 +17,7 @@ What do you need?
 
 - Retro - https://github.com/GhostlyDark/retro
 
-- Your own copy of the original game assets.
+- Your own copy of the original game assets. I'd suggest starting with Retro to extract textures in the required directory structure & using a decomp do replace any corrupt PNGs (may be fixed in future).
 
 
 Once you have everything, you will need to copy the pre-rendered images and make sure that they follow the directory structure shown in the __renders_tree.txt__ in this repo. To run the ultrascale script, just pass it the parent directory and it will process the files recursively. Note that they will be overwritten, so work on a copy. ;)
@@ -37,6 +37,8 @@ In contrast to the UltraScale, the aim of this script is to scale the Reloaded t
 The script takes the source dir as the first argument and the Reloaded dir the second. Each texture found in the source dir is compared against its counterpart and scaled accordingly. Nothing is overwritten, the created images are saved in a new directory.
 
 Get the Reloaded texture pack here: https://github.com/GhostlyDark/OoT-Reloaded-SoH
+
+You can use Retro to extract original textures from your SoH oot to use as the source reference in this instance. Dispite some missing color channels, the sizes will be correct and that's all that we need them for here.
 
 Usage example:
 ```
