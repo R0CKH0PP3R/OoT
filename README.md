@@ -32,7 +32,7 @@ When done, use retro to build an otr file for SoH. Directions can be found here:
 
 
 ## UnderScale
-In contrast to the UltraScale, the aim of this script is to scale the Reloaded texture pack proportionally to the original textures. This results in much of it being downscaled, which is a good thing. While high quality, many of the texture replacements are just too big and cause stutter. A 4x scale over the originals is sufficient at 1080p and 8x looks great at 1440p. Using 4x allows me to run SoH on an old micro office pc and the visuals remain a huge increase over standard.
+In contrast to the UltraScale, the aim of this script is to scale the Reloaded texture pack proportionally to the original textures. This results in much of it being downscaled, which is a good thing. While high quality, many of the texture replacements are just too big and cause stutter. A 4x scale over the originals is sufficient at 1080p and 8x looks great at 1440p. Using 4x will allow you to enjoy improved visuals on integrated graphics or older hardware, while 8x provides much of what Reloaded offers in a much smaller package. 16x has not been tested but I think that will be the highest level currently supported by SoH. However, you may as well just use Reloaded at this point.
 
 The script takes the source dir as the first argument and the Reloaded dir the second. Each texture found in the source dir is compared against its counterpart and scaled accordingly. Nothing is overwritten, the created images are saved in a new directory.
 
