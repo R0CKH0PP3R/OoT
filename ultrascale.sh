@@ -48,7 +48,7 @@ readarray -d '' dirs < <(find "$1" -type d -print0)
 for dir in "${dirs[@]}"
 do
 	# Generate a list of files to process within this directory.
-	readarray -d '' fnd < <(find "$dir" -maxdepth 1 -name '*.png' -print0)
+	readarray -d '' fnd < <(find "$dir" -maxdepth 1 -name '*.png' -print0 | sort -z)
 
 	# Some directories may not have any pngs. Only proceed if they do.
 	if (( ${#fnd[@]} )); then
