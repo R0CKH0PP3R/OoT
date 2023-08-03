@@ -38,7 +38,7 @@ The script takes the source dir as the first argument and the Reloaded dir as th
 
 Get the Reloaded texture pack here: https://github.com/GhostlyDark/OoT-Reloaded-SoH
 
-You can use Retro to extract original textures from your SoH oot to use as the source reference in this instance. Dispite some missing color channels, the sizes will be correct and that's all that we need them for here.
+You can use Retro to extract the original textures from your SoH otr file as the source reference in this instance. Dispite some missing color channels in the extracted files, their dimensions will be correct and that's all that we need them for here.
 
 Usage example:
 ```
