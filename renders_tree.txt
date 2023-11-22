@@ -1,6 +1,6 @@
 oot
 ├── scenes
-│   └── nonmq
+│   └── shared
 │       ├── alley_shop_scene
 │       │   └── alley_shop_room_0Background_001430.jpg
 │       ├── drag_scene
